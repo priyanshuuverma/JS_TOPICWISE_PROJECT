@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image:url('https://cdn.pixabay.com/photo/2019/03/07/13/00/clouds-4040132_1280.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        h1{
+            color: rgb(22, 0, 110);
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            padding-left: 20px;
+            left: 40vh;
+            top: 30vh;
+        }
+        h2{
+            color: rgb(5, 5, 5);
+            font-size: 40px;
+            position: absolute;
+            bottom: 15vh;
+            left: 27%;
+        }
+        h3{
+            color: rgb(8, 10, 9);
+            font-size: 40px;
+            position: absolute;
+            bottom: 6vh;
+            left: 27%;
+        }
+        input{
+            font-size: 20px;
+            outline: 0;
+            border: 0;
+            color: white;
+            
+            font-weight: 900;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.765) ;
+            width: 80vh;
+            height: 8vh;
+            position: absolute;
+            left: 27%;
+            bottom: 38vh;
+            text-wrap-style: 0;
+            text-align: center;
+        }
+        button{
+            cursor: pointer;
+            font-size: 20px;
+            outline: 0;
+            border: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           
+            border-radius: 10px;
+            background-color: rgb(4, 186, 242);
+            width: 15vh;
+            height: 5vh;
+            position: absolute;
+            left:60%;
+            bottom: 40vh;
+        }
+      
+    </style>
+</head>
+<body>
+    <div>
+        <input id="city" type="text" placeholder="Enter City Name"/>
+        <button id="search-button">Search</button>
+
+        <div>
+            <h1 id="CityN">
+               Location
+            </h1>
+            <h2 id="CityT">Date and Time:</h2>
+            <h3 id="CityTem">
+                Temperature:
+            </h3>
+        </div>
+    </div>
+    <script src ="Script.js"></script>
+</body>
+</html>
